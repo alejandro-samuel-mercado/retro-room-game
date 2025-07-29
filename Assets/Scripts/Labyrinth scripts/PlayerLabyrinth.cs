@@ -5,9 +5,9 @@ using UnityEngine;
 public class PlayerLabyrinth : MonoBehaviour
 {
     /*Variable que representa la velocidad a la que se mover� el jugador en el ejeX*/
-    [SerializeField] private float velocidadX = -600f;
+    [SerializeField] private float velocidadX = -10000f;
     /*Variable que representa la velocidad a la que se mover� el jugador en el ejeY*/
-    [SerializeField] private float velocidadY = 600f;
+    [SerializeField] private float velocidadY = 10000f;
     /*Variable que representa la posicion final del jugador*/
     private Rigidbody rb;
     private ILimitChecker limitChecker;

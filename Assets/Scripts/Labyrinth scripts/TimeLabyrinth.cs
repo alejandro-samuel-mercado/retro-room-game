@@ -35,6 +35,8 @@ private List<ITimeObserver> observers = new List<ITimeObserver>();
 
     private void NotifyTimeEnded()
     {
+             SceneManager.LoadScene("GameOver");
+
         foreach (var observer in observers)
         {
             observer.OnTimeEnded();
