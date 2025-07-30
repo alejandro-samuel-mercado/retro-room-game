@@ -1,1 +1,1 @@
-/Assets/** linguist-language=C#
+*.cs linguist-vendored
